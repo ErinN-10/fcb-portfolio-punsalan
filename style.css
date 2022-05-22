@@ -1,0 +1,78 @@
+* {
+	font-family: "Audiowide" , cursive;
+}
+
+h1, h2 {
+	font-family: "Audiowide", cursive ;
+}
+
+#profile {
+	height:  250px;
+	width:  250px;
+}
+
+
+
+#landing{
+	/* viewport height- measured percentage of 
+	the height device you are viewing your 
+	webpage in */
+
+	height: 80vh;
+
+	/*arranges elements inside the parent element, will 
+	allow us to layout our elements inside our landing page*/
+	display: flex;
+
+	/* directs the elements inside displayl: flex*/
+	flex-direction: column;
+
+	/*centering elements horizontally if flex-direction
+	is in the column*/
+	align-items: center;
+
+	/* centering elements vertically if flex direction is 
+	in column*/
+	justify-content: center;
+
+}
+
+.jumbotron {
+	background-color: white;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	/*line - around the element*/
+	border: 5px solid #f2f2f2;
+
+	/*spaces outside the element*/
+	margin: 10px;
+
+	padding: 10px;
+	height: 150px;
+	width: 75%;
+	color:  white;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
